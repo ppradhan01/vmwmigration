@@ -1,6 +1,6 @@
 <Graph>
   <Nodes>
-    <Node id="1" name="ESX1" type="Host" text="esx1.att.com" />
+    <Node id="1" name="ESX1" type="Host" text="esx1-dummy.att.com" />
     <Node id="2" name="VirtualBridge01" type="vSwitch" text="10.0.1.0/24" />
     <Node id="3" name="VLAN1522" type="PortGroup" text="2055" />
     <Node id="4" name="VLAN1525" type="PortGroup" text="2056" />

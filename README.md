@@ -1,6 +1,6 @@
 Sample code to take in VMWare XML input and auto-generate OCPV migration artefacts (eg NMState, NAD, NNCP YAMLs)
 
-!(./visualization.jpg)
+![Input represented as graph](./visualization.jpg)
 
 <ul>
 <li>

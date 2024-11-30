@@ -1,0 +1,12 @@
+apiVersion: k8s.cni.cncf.io/v1
+kind: NetworkAttachmentDefinition
+metadata:
+  annotations:
+    description: Network 2055 via OVS Bridge
+  name: vlan-2055
+  namespace: default
+spec:
+  config: "{\n  \"cniVersion\": \"0.3.1\",\n  \"name\": \"vlan-2055\",\n  \"type\"\
+    : \"ovn-k8s-cni-overlay\",\n  \"topology\": \"localnet\",\n  \"netAttachDefName\"\
+    : \"default/vlan-2055\",\n  \"vlanID\": \"2055\",\n  \"mtu\": 1500,\n  \"subnets\"\
+    : \"10.10.1.0/24\"\n}"

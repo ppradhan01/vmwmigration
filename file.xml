@@ -1,0 +1,21 @@
+<Graph>
+  <Nodes>
+    <Node id="1" name="ESX1" type="Host" text="esx1.att.com" />
+    <Node id="2" name="VirtualBridge01" type="vSwitch" text="10.0.1.0/24" />
+    <Node id="3" name="VLAN1522" type="PortGroup" text="2055" />
+    <Node id="4" name="VLAN1525" type="PortGroup" text="2056" />
+    <Node id="5" name="VM1" type="VM" text="10.0.1.10" />
+    <Node id="6" name="VM2" type="VM" text="10.0.1.11" />
+    <Node id="7" name="VM3" type="VM" text="10.0.1.13" />
+    <Node id="8" name="VM4" type="VM" text="10.0.1.14" />
+  </Nodes>
+  <Relationships>
+    <Relationship type="HOSTS" from="1" to="2" />
+    <Relationship type="CONTAINS" from="2" to="3" />
+    <Relationship type="CONTAINS" from="2" to="4" />
+    <Relationship type="CONNECTS" from="3" to="5" />
+    <Relationship type="CONNECTS" from="3" to="6" />
+    <Relationship type="CONNECTS" from="4" to="7" />
+    <Relationship type="CONNECTS" from="4" to="8" />
+  </Relationships>
+</Graph>

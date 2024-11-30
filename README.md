@@ -1,5 +1,7 @@
 Sample code to take in VMWare XML input and auto-generate OCPV migration artefacts (eg NMState, NAD, NNCP YAMLs)
+
 !(./visualization.jpg)
+
 <ul>
 <li>
   <h5>file.xml :</h5> Input vmware deployment as xml

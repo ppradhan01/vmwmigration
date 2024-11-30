@@ -41,6 +41,7 @@ class Graph:
     def visualize(self):
         # Create a NetworkX graph
         G = nx.DiGraph()
+        #pos = nx.arf_layout(G)
 
         # Add nodes with labels
         for node_id, node in self.nodes.items():

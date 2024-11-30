@@ -6,8 +6,14 @@
     <Node id="4" name="VLAN1525" type="PortGroup" text="2056" />
     <Node id="5" name="VM1" type="VM" text="10.0.1.10" />
     <Node id="6" name="VM2" type="VM" text="10.0.1.11" />
-    <Node id="7" name="VM3" type="VM" text="10.0.1.13" />
-    <Node id="8" name="VM4" type="VM" text="10.0.1.14" />
+    <Node id="7" name="VM3" type="VM" text="10.0.1.12" />
+    <Node id="8" name="VM4" type="VM" text="10.0.1.13" />
+    <Node id="9" name="VM5" type="VM" text="10.0.1.14" />
+    <Node id="10" name="VM6" type="VM" text="10.0.1.15" />
+    <Node id="11" name="VM7" type="VM" text="10.0.1.20" />
+    <Node id="12" name="VM8" type="VM" text="10.0.1.21" />
+    <Node id="13" name="VM9" type="VM" text="10.0.1.22" />
+    <Node id="14" name="VM10" type="VM" text="10.0.1.23" />
   </Nodes>
   <Relationships>
     <Relationship type="HOSTS" from="1" to="2" />
@@ -15,7 +21,13 @@
     <Relationship type="CONTAINS" from="2" to="4" />
     <Relationship type="CONNECTS" from="3" to="5" />
     <Relationship type="CONNECTS" from="3" to="6" />
-    <Relationship type="CONNECTS" from="4" to="7" />
-    <Relationship type="CONNECTS" from="4" to="8" />
+    <Relationship type="CONNECTS" from="3" to="7" />
+    <Relationship type="CONNECTS" from="3" to="8" />
+    <Relationship type="CONNECTS" from="3" to="9" />
+    <Relationship type="CONNECTS" from="3" to="10" />
+    <Relationship type="CONNECTS" from="4" to="11" />
+    <Relationship type="CONNECTS" from="4" to="12" />
+    <Relationship type="CONNECTS" from="4" to="13" />
+    <Relationship type="CONNECTS" from="4" to="14" />
   </Relationships>
 </Graph>

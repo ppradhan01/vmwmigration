@@ -3,7 +3,6 @@ Sample code to take in VMWare XML input and auto-generate OCPV migration artefac
 <li>
   <h5>file.xml :</h5> Input vmware deployment as xml
 </li>
-
 <li>
 <h5>main.py :</h5>
 Parse VMWare XML input to populate graph data structure, visualized like so :

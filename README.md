@@ -1,7 +1,9 @@
 Sample code to take in VMWare XML input and auto-generate OCPV migration artefacts (eg NMState, NAD, NNCP YAMLs)
+<ul>
+<li>
+  <h5>file.xml :</h5> Input vmware deployment as xml
+</li>
 
-<h5>file.xml :</h5> 
-Input vmware deployment as xml
 
 <h5>main.py :</h5>
 <br> parse VMWare XML input to populate graph data structure, visualized like so :
@@ -12,3 +14,5 @@ Input vmware deployment as xml
 <h5>nad.py, nncp.py, nmstate.py</h5> : Generate YAMLs from given template 
 <h5>TODO:</h5>h5> 
 <br>generate XML from VMWare discovery input
+
+</ul>
